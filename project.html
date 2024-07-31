@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="welcome to Younghyun's portfolio" />
+    <meta name="keywords" content="frondend, webdeveloper, webdesigner" />
+    <meta name="author" content="Younghyun Kim" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="icon" href="images/favicon192.png" sizes="192x192" />
+    <title>Younghyun's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/media.css" />
+    <script
+      src="https://kit.fontawesome.com/1f24d92328.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/intro.js"></script>
+    <script src="js/project.js"></script>
+  </head>
+
+  <body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <div class="noise"></div>
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo_wrap">
+          <a href="index.html" class="logo">
+            <span class="sr-only">Home</span>
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 148.79 118.29" xml:space="preserve">
+              <!-- <g id="Layer_2" data-name="Layer 2"> -->
+                <g id="Graphic_Elements" data-name="Graphic Elements">
+                  <path class ="cls-1" d="M0,3.5H0A58.86,58.86,0,0,1,58.86,62.36v55.93a0,0,0,0,1,0,0h0A58.86,58.86,0,0,1,0,59.43V3.5A0,0,0,0,1,0,3.5Z"/>
+                  <path class="cls-1" d="M64,70.7h0V41a37.5,37.5,0,0,1,37.5-37.5h0V33.21A37.49,37.49,0,0,1,64,70.7Z"/>
+                  <path class ="cls-1" d="M64,76.53h43a41.76,41.76,0,0,1,41.76,41.76v0a0,0,0,0,1,0,0h-43A41.76,41.76,0,0,1,64,76.53v0a0,0,0,0,1,0,0Z"/>
+                </g>
+              <!-- </g> -->
+            </svg>
+          </a>
+        </div>
+        <ul class="gnb">
+          <li><a href="index.html#home">home</a></li>
+          <li><a href="index.html#projects" class="mark">projects</a></li>
+          <li><a href="index.html#skills">skills</a></li>
+          <li><a href="index.html#collabo">collaboration</a></li>
+        </ul>
+        <nav class="con_wrap">
+          <a href="index.html#contact" class="con_btn">contact</a>
+        </nav>
+      </nav>
+      
+      <div class="themeDarkLight"></div>
+      <div class="burger" id="burger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+
+    <main>
+      <section class="project">
+        <h2 class="subheading visible" id="project-title">
+          Title
+        </h2>
+        <em id="project-description">This is project description</em>
+        
+        <div class="project_summary container1">
+          <ul>
+            <li>Role<em id="summary-role">Planning, UI/UX, Frontend development</em></li>
+            <li>Year<em id="summary-year">2024</em></li>
+            <li>project type<em id="summary-type">Web development</em></li>
+            <li>Source Code<em id="summary-source" class="sourcecode"><a href="https://github.com/honeyprofit" target="_blank">View on GitHub</a></em></li>
+            <li>Final product<em id="summary-final" class="visit"><a href="http://paddingtonbeta.dothome.co.kr/" target="_blank">Website</a></em></li>
+          </ul>
+        </div>
+        <figure>
+          <img src="images/loading.jpg" alt="title_image" id="project-image1">
+          <a href="https://github.com/honeyprofit" target="_blank" id="stamp_preview"><img src="images/stamp_preview.svg" alt="preview web"></a>
+        </figure>
+
+        <div class="project_card">
+          <h6>Challenge</h6>
+          <span class="ko" id="project-challenge">challenge</span>
+        </div>
+        <div class="project_card">
+          <h6>Approach</h6>
+          <span class="ko" id="project-approach">approach</span>
+        </div>
+
+        <figure>
+          <img src="images/paddington/paddington_figma.PNG" alt="디자인시스템" class="caption" id="project-image2">
+          <figcaption>Figure 1: Round 1 prototyping</figcaption>
+        </figure>
+        <div class="figure_wrap">
+          <figure>
+            <img src="images/paddington/paddington_typography.png" alt="디자인시스템" class="caption" id="project-image3">
+            <figcaption>Figure 2: Design system preview</figcaption>
+          </figure>
+          <figure>
+            <img src="images/paddington/paddington_colorpalette.png" alt="디자인시스템" class="caption" id="project-image4">
+            <figcaption>Figure 3: Design system preview</figcaption>
+          </figure>
+        </div>
+
+
+        <div class="project_card">
+          <h6>process</h6>
+          <span class="ko" id="project-process">process</span>
+        </div>
+        <div class="project_card">
+          <h6>Design tool</h6>
+          <span class="ko" id="project-tool">design gool</span>
+        </div>
+
+        <figure>
+          <div id="project-media">
+              <img src="images/loading.jpg" alt="아웃풋이미지" id="project-image5">
+          </div>
+          <figcaption>Figure 4: screen preview</figcaption>
+      </figure>
+
+        <div class="project_card">
+          <h6>Result</h6>
+          <span class="ko" id="project-result">result</span>
+        </div>
+        <div class="project_card">
+          <h6>Key Learning</h6>
+          <span class="ko" id="project-learning">key learning</span>
+        </div>
+        <div class="project_card">
+          <h6>Conclusion</h6>
+          <span class="ko" id="project-conclusion">conclusion</span>
+        </div>
+      </section> 
+    </main>
+
+    <footer class="footer">
+      <div class="sns_wrap">
+        <a href="#"><i class="fa-brands fa-behance"></i></a>
+        <a href="https://github.com/honeyprofit/" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+      <!-- sns_wrap -->
+
+      <ul class="list">
+        <!-- <li><a href="#">FAQS</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#contact">Contact</a></li> -->
+        <li><a href="#" target="_blank">Visit my illustration website</a></li>
+      </ul>
+      <div class="f_say container2">
+        <h6>LET'S TALK SO SAY HELLO</h6>
+      </div><!-- f_say -->
+      <div class="f_copy container2">
+        <p class="copyright en">Younghyun Kim&copy; 2024 All rights Reserved.</p>
+        <p class="location en"><i class="fa-solid fa-globe"></i> Seoul, South Korea.</p>
+      </div><!-- f_copy -->
+
+
+    </footer>
+  </body>
+</html>
