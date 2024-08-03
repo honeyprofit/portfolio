@@ -145,7 +145,7 @@ $(document).ready(function() {
             year: '2024',
             type: 'App Design',
             sourcecode: 'See Prototype',
-            link_git: 'https://www.figma.com/proto/vl0fGqfROkcSUjbi1sllPN/1%EC%B0%A8-%EC%8B%9C%EC%95%88?page-id=1%3A2&node-id=82-2687&viewport=1065%2C1020%2C0.15&t=bb4SyWZC5yr2GVMj-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=82%3A2687&show-proto-sidebar=1',
+            link_git: 'https://www.figma.com/proto/vl0fGqfROkcSUjbi1sllPN/1%EC%B0%A8-%EC%8B%9C%EC%95%88?page-id=278%3A5499&node-id=328-5876&viewport=7455%2C1449%2C0.27&t=0lfGM5dBR8JBxbGW-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=328%3A5876',
             final: 'Website',
             link: 'https://gray-nonogon-396482.framer.app/',
             challenge: `이 앱의 네비게이션 메뉴를 구성하는 것이 매우 도전적이었습니다.
