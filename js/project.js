@@ -290,33 +290,74 @@ $(document).ready(function () {
       image2: "images/greenenergy/greenenergy_figma.jpg",
       image3: "images/greenenergy/greenenergy_design01.jpg",
       image4: "images/greenenergy/greenenergy_design02.jpg",
-      image5: "images/greenenergy/greenenergy_code.png",
+      image5: "images/greenenergy/greenenergy_vid.mp4",
+      image6: "images/greenenergy/greenenergy_code.png",
       title: "Green Energy",
-      type: "Web design Web developement",
-      sourcecode: "View on GitHub",
+      description: `Green Energy는 그린에너지와 지속가능한 미래를 홍보하기 위한 2페이지 인터랙티브 애니메이션 웹사이트입니다. HTML, CSS, jQuery를 활용하여 개발되었으며, 사용자의 관심과 참여를 유도하는 다양한 동적 요소를 포함하고 있습니다.`,
+      role: "100% - Planning, UI/UX, Frontend web development",
+      year: "2024",
+      type: "Web",
+      sourcecode: "GitHub",
       link_git: "https://github.com/honeyprofit/greenenergy",
-      final: "Website",
-      link: "http://paddingtonbeta.dothome.co.kr/greenenergy",
-      challenge: `이 프로젝트의 가장 큰 도전 과제는:
-                <br>1. 태양광 및 풍력 발전소의 복잡한 설계와 시뮬레이션을 구현하는 것이었습니다.
-                <br>2. 다양한 환경 조건에서의 성능 최적화와 효율성 분석을 실시하는 것이었습니다.`,
+      final: "Web aimation",
+      link: "https://honeyprofit.github.io/greenenergy",
+      challenge: `
+        이 프로젝트의 주요 도전 과제는 다음과 같습니다:
+        <br>1. 복잡한 애니메이션 요소들을 효과적으로 구현하는 것이었습니다. 특히 자전거를 타는 캐릭터의 움직임을 자연스럽게 표현하는 것이 가장 큰 과제였습니다.
+        <br>2. 다양한 인터랙티브 요소들을 통해 사용자의 참여를 유도하면서도 웹사이트의 성능을 최적화 방법을 모색했습니다.
+        <br>3. 두 페이지 간의 일관성을 유지하면서도 각 페이지의 특성을 살리는 디자인을 구현해야 했습니다.
+        `,
       goals: `이 프로젝트는 다음과 같은 접근 방식으로 진행되었습니다:
-                <br>1. 태양광 및 풍력 발전 기술의 최신 동향과 요구 사항을 분석했습니다.
-                <br>2. 웹사이트의 UI/UX 디자인과 사용자 피드백을 반영하여 프로토타입을 제작했습니다.
-                <br>3. HTML, CSS, JavaScript를 사용하여 반응형 웹사이트를 개발하고, 서버 측 코드를 구현했습니다.`,
-      roleandres: `기획 단계: 요구사항 분석, 기술 조사
-                <br>디자인 단계: 프로토타입 제작, UI/UX 디자인
-                <br>개발 단계: HTML, CSS, JavaScript를 사용한 웹사이트 개발
-                <br>테스트 단계: 사용자 테스트 및 피드백 반영`,
-      tool: `디자인 도구: Figma, Adobe Illustrator
-                <br>개발 도구: HTML, CSS, JavaScript`,
-      result: `사용자가 쉽게 이해하고 활용할 수 있는 정보 제공을 목표로 하여 웹사이트를 구현했습니다.
-                <br>친환경 에너지 소개와 관련된 다양한 측면에서 정보를 제공하고자 했습니다.`,
-      learning: `환경 문제와 친환경 기술에 대한 심층적인 이해를 도모할 수 있는 기회였습니다.
-                <br>웹 개발 및 디자인에서의 실질적인 경험을 쌓을 수 있었습니다.`,
-      conclusion: `Green Energy 프로젝트는 환경 보호와 지속 가능한 발전에 대한 인식을 높이고자 하는 목적을 달성하기 위한 중요한 시작점이었습니다. 
-                <br>앞으로도 더 나은 정보 전달과 사용자 경험을 위해 지속적으로 개선해 나갈 계획입니다.`,
-    },
+        <br>1. 그린에너지와 지속가능한 미래에 대한 정보를 효과적으로 전달할 수 있는 시각적 요소들을 설계했습니다.
+        <br>2. 사용자의 관심을 끌 수 있는 인터랙티브 애니메이션 요소들을 기획하고 구현했습니다.
+        <br>3. HTML, CSS, jQuery를 활용하여 동적이고 반응형인 웹사이트를 개발했습니다.
+        <br>4. 사용자 테스트를 통해 애니메이션의 자연스러움과 인터랙션의 직관성을 지속적으로 개선했습니다.`,
+      roleandres: `
+        1.기획 단계: 
+        <br>- 그린에너지 홍보를 위한 핵심 메시지 선정
+        <br>- 두 페이지의 테마 설정 (스마트 시티와 천연 에너지)
+        <br>- 주요 인터랙티브 요소 기획
+        <br>2.디자인 단계: 
+        <br>- 스마트 시티와 천연 에너지를 표현하는 시각적 요소 디자인
+        <br>- 애니메이션 프로토타입 제작
+        <br>3.개발 단계: 
+        <br>- HTML, CSS를 이용한 기본 구조 및 스타일 구현
+        <br>- jQuery를 활용한 동적 요소 및 인터랙션 개발
+        <br>- 자전거, 풍력발전기, 열기구, 비행기 등 애니메이션 구현을 위한 미디어 파일 제작 및 코딩
+        <br>4.테스트 단계: 
+        <br>- 다양한 디바이스 및 브라우저에서의 호환성 테스트
+        <br>- 사용자 피드백을 통한 애니메이션 및 인터랙션 개선`,
+      tool: `디자인 도구: Adobe Illustrator, Adobe Photoshop, Figma
+        <br>개발 도구: Visual Studio Code
+        <br>프론트엔드: HTML5, CSS3, jQuery
+        <br>버전 관리: GitHub`,
+      result: `프로젝트의 주요 결과는 다음과 같습니다:
+        <br>1. 스마트 시티와 천연 에너지를 주제로 한 두 페이지의 인터랙티브 웹사이트를 성공적으로 구현했습니다.
+        <br>2. 클릭을 통해 풍력발전기 회전, 요트 및 열기구 이동, 자전거 타는 아이 등 다양한 동적 요소를 구현하여 사용자의 관심과 참여를 유도했습니다.
+        <br>3. 자전거를 타는 아이의 자연스러운 움직임을 구현하기 위해 프로토타입 제작, 미디어 파일 추출, jQuery 코딩 등의 과정을 거쳐 완성도 높은 애니메이션을 만들어냈습니다.
+        <br>4. 반응형 디자인을 적용하여 다양한 디바이스에서 일관된 사용자 경험을 제공했습니다.`,
+      learning: `
+        <br>1. 복잡한 애니메이션을 구현하기 전에는 프로토타이핑이 시행착오를 줄일 수 있다는 점.
+        <br>2. jQuery를 활용한 다양한 인터랙티브 요소 구현 기술.
+        <br>3. 미디어 쿼리를 활용한 디자인 구현 능력.
+        <br>4. 사용자 경험을 고려한 애니메이션 최적화 기법.
+        <br>5. 시각적 요소와 기술적 구현 사이의 균형을 맞추는 방법`,
+      value: `Green Energy 프로젝트는 다음과 같은 핵심 가치를 제공합니다:
+        <br>1. 환경 인식 제고: 인터랙티브한 방식으로 그린에너지의 중요성을 효과적으로 전달합니다.
+        <br>2. 사용자 참여 유도: 다양한 애니메이션 요소를 통해 사용자의 적극적인 참여를 이끌어냅니다.
+        <br>3. 기술 혁신: 다양한 애니메이션으로 웹 기술의 가능성을 보여줍니다.
+        <br>4. 디자인 창의성: 시각적으로 매력적인 디자인으로 메시지 전달 효과를 극대화합니다.
+        <br>5. 교육적 가치: 재생에너지와 지속가능한 미래에 대한 이해를 돕는 교육 도구로 활용될 수 있습니다.`,
+      conclusion: `Green Energy 프로젝트는 그린에너지와 지속가능한 미래에 대한 인식을 높이는 데 기여하는 의미 있는 시작점이었습니다. 
+        <br>이 프로젝트를 통해 웹 기술과 창의적인 디자인의 결합이 얼마나 효과적으로 중요한 메시지를 전달할 수 있는지를 깨달았고, 
+        <br>향후에는 다음과 같은 사항들을 추가하고 싶습니다.
+        <br><br>1. 더 많은 인터랙티브 요소를 추가하여 사용자 참여를 더욱 증진시키기
+        <br>2. 데이터 시각화 기능을 도입하여 그린에너지의 효과를 더욱 직관적으로 보여주기
+        <br>3. 다국어 지원을 통해 글로벌 사용자에게 접근성 높이기
+        <br>4. 반응형으로 발전시켜 다양한 디바이스에서 일관된 사용자 경험 제공
+        <br>5. 모바일 앱 버전 개발을 통해 더 넓은 사용자층에게 접근하기
+        <br><br>이러한 노력을 통해 Green Energy 프로젝트가 환경 보호와 지속가능한 발전에 대한 인식을 높이는 데에 더욱 기여할 수 있기를 기대합니다.`,
+    },    
     museum: {
       image1: "images/museum/museum_title.png",
       image2: "images/museum/museum_figma.png",
@@ -396,7 +437,14 @@ $(document).ready(function () {
                 Your browser does not support the video tag.
             </video>
         `);
-    } else {
+    } else if(projectID === "greenenergy"){
+      $("#project-media").html(`
+            <video autoplay loop muted playsinline>
+            <source src="images/greenenergy/greenenergy_vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+      </video>
+       `);
+}else {
       $("#project-image5").attr("src", projectData[projectID].image5);
     }
   } else {
