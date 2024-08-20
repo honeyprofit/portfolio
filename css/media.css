@@ -69,7 +69,8 @@
     font-size: 58%;
   }
   .header{
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05) 0%, var(--bg-color) 100%);
+    /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.05) 0%, var(--bg-color) 100%); */
+    background:  var(--bg-color);
     padding: 3rem 10%;
   }
   #burger {
@@ -200,6 +201,9 @@ section.project{
 }
 
 @media screen and (max-width: 800px) {
+.aboutme .bar_vertical{
+  display: none;
+}
 .illust_book {
     display: none;
   }
@@ -280,9 +284,9 @@ transform: translateX(-50%) scale(1.02);
   html {
     font-size: 55%;
   }
-  .header{
+  /* .header{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.00) 0%, var(--bg-color) 100%);
-  }
+  } */
   body{
     position: relative;
   }
