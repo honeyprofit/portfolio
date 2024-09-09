@@ -10,8 +10,8 @@ $(function () {
   const $cursorSpan = $(".cursor");
 
   const textArray = [
-    "a product designer",
-    "a front-end web developer",
+    "a web designer",
+    "a web developer",
     "an illustrator",
   ];
   const typingDelay = 100;
