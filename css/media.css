@@ -61,10 +61,10 @@
   .box {
     font-size: 8vw; /* Adjust font size for smaller mobile screens */
   }
-  .project_summary ul {
+  .case_summary ul {
     flex-direction: column;
   }
-  #project-description {
+  #case-description {
     padding: 0;
   }
 }
