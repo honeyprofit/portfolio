@@ -194,7 +194,7 @@ $(document).ready(function () {
       sourcecode: "View on GitHub",
       link_git: "https://github.com/honeyprofit/binance3d-2",
       final: "Website",
-      link: "https://lfh3tt-5173.csb.app/",
+      link: "https://honeyprofit.github.io/binance3d-2/",
       challenge: `
             1. UI 일관성 유지: 2D 디자인을 3D로 변환하는 과정에서 UI 요소의 일관성을 유지해야 했습니다. 이를 위해 styled-components를 활용하여 UI의 각 요소(예: 버튼, 텍스트 등)의 스타일을 관리하며, 반응형 디자인을 구현하여 다양한 화면 크기에서도 일관된 사용자 경험을 줄 수 있도록 설계했습니다.
             <br>2. 성능 최적화: 3D 모델의 사용으로 인해 로딩 시간이 증가할 수 있었습니다. 이를 해결하기 위해, Spline의 scene URL을 통해 외부 3D 모델을 불러오고, transform 속성을 사용하여 미디어 쿼리에 따라 3D 모델의 위치를 조정했습니다. 이러한 접근은 브라우저의 렌더링 성능을 최적화하고, 다양한 디바이스에서 원활한 성능을 유지할 수 있도록 합니다.
