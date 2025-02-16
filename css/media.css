@@ -24,13 +24,17 @@
   .box a p {
     display: block;
   }
-  #item01 {
+  #item00 {
     grid-row-start: 1;
     grid-row-end: 1;
   }
-  #item1 {
+  #item01 {
     grid-row-start: 2;
     grid-row-end: 2;
+  }
+  #item1 {
+    grid-row-start: 3;
+    grid-row-end: 3;
   }
   #item1 figure {
     width: 36%;
@@ -43,20 +47,21 @@
     text-align: left;
   }
   #item2 {
-    grid-row-start: 3;
-    grid-row-end: 3;
-  }
-  #item3 {
     grid-row-start: 4;
     grid-row-end: 4;
   }
-  #item4 {
+  #item3 {
     grid-row-start: 5;
     grid-row-end: 5;
   }
-  #item5 {
+  #item4 {
     grid-row-start: 6;
     grid-row-end: 6;
+  }
+  #item5 {
+    display: none;
+    grid-row-start: 7;
+    grid-row-end: 7;
   }
   .box {
     font-size: 8vw; /* Adjust font size for smaller mobile screens */
@@ -332,8 +337,8 @@
     width: 70%;
   }
   #item01 figure {
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50%;
+    transform: translateX(-50%); */
     top: 0;
   }
   #item1 figure {
