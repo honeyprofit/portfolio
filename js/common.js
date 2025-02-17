@@ -48,9 +48,9 @@ follower.removeClass("active");
 
 
 /* 네비바 나타나기 */
-// setTimeout(function() {
-//   $('.navbar').addClass('show');
-// }, 400);
+setTimeout(function() {
+  $('.navbar').addClass('show');
+}, 400);
 
 function updateNavbar() {
   if (window.innerWidth >= 1024) {
